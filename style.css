@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+html {
+    background-color: #688DC6;
+}
+
+.main-window {
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.main-grid {
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows:5% 10% 15% 60% 15%;
+}
+
+h1 {
+    color: white;
+    height: auto;
+    font-size: 65px;
+    margin: 0 auto;
+}
+
+.title {
+    grid-row: 2;
+    text-align: center;
+    background-color: #688DC6;
+}
+
+.reset-todos {
+    height: 100%;
+    grid-row: 5;
+}
+
+.reset-but {
+    height: 50px;
+    border-radius: 60%;
+    width: 60px;
+    border: none;
+    background-color: white;
+    margin: auto;
+}
+
+.cross-img-red {
+    width: 30px;
+    height: 30px;
+}
+
+.cross-img-blue {
+    width: 100%;
+    height: 100%;
+}
+
+.submit-todo {
+    grid-row: 3;
+    margin: auto;
+}
+
+.all-todos {
+    grid-row: 4;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do {
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    vertical-align: middle;
+}
+
+.todo-text {
+    grid-column: 1;
+    margin: auto 0 auto 20px;
+    justify-self: left;
+}
+
+.close-todo {
+    border: none;
+    grid-column: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    margin: auto;
+    padding: 0;
+}
