@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 * {
+
     font-family: 'Fredoka One', cursive;
     text-align: center;
 }
@@ -10,10 +11,12 @@ html {
 }
 
 .main-window {
-    width: 40%;
+    width: 50%;
     height: 600px;
+    min-height: 550px;
     background-color: white;
     margin: auto;
+    margin-top: 5%;
     box-shadow: 10px 10px 10px black;
 }
 
@@ -106,3 +109,4 @@ h1 {
     margin: auto;
     padding: 0;
 }
+
