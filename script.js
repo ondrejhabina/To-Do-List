@@ -35,7 +35,7 @@ function createTodo(input) {
     //setting up local storage
     todo.innerHTML = input;
     let todoText = todo.innerHTML;
-    let todoKey = String(todoList.children.length); //elegant way to assign a key to the local storage item, index based hence + 1
+    let todoKey = String(todoList.children.length); //elegant way to assign a key to the local storage item
     
     //determine if we are calling the func for creation or rebuilding from local storage
     if (localStorage.getItem(todoKey) === null) {
